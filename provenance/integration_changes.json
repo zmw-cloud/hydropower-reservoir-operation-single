@@ -1,0 +1,16 @@
+[
+  {
+    "path": "pyproject.toml",
+    "reason": "Package metadata and required RF dependency; algorithm code unchanged.",
+    "before_sha256": "a29c980c77398d2d8357da4ae5fac8571c1fbed22c7b5e3d7ddbef794e951503",
+    "after_sha256": "67331a03917c3d28de91e5df82bee87d568691c97d611ab94c6256753c6259a4"
+  },
+  {
+    "path": "data/experiment_settings.yaml",
+    "reason": "Recover effective final DQN hyperparameters from per-seed result configurations; consolidate seed lists to1,42,100. No network/reward/transition change."
+  },
+  {
+    "path": "data/violation_count_penalty_settings.yaml",
+    "reason": "Activate only verified paper representatives70,175,650; RF700 uses its separate frozen50-point validation configuration. Historical scan records are retained."
+  }
+]

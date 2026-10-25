@@ -1,0 +1,18 @@
+"dead_level": 1166,  # Dead water level (m)
+"normal_level": 1240,  # Normal water level (m)
+"initial_level": 1240,  # Initial water level (m)
+"terminal_level": 1240,  # Hard final level for finite-horizon DDP (m)
+"flood_limit_level": 1236,  # XiaoWan flood-limit level (m)
+"flood_limit_action_start_month": 5,  # May target controls the June start level
+"flood_limit_action_end_month": 10,  # October target remains at the flood limit
+"max_turbine_discharge": 2340,  # Outflow capacity of turbines (m3/s)
+"max_total_release": 20683,  # XiaoWan check-flood total-release bound (m3/s)
+"max_power": 4200000,  # Installed capacity (kW)
+"firm_power": 1854000,  # Firm output of turbines (kW)
+"power_coefficient": 8.5,  # Power coefficient
+"delta_t_days": 30.4,  # Reward-normalization reference only; physics uses calendar days
+"high_flow_anchor_1_discharge": 15666.0,
+"high_flow_anchor_1_tailwater": 1012.71,
+"high_flow_anchor_2_discharge": 20683.0,
+"high_flow_anchor_2_tailwater": 1016.64,
+"inflow_upper_bound": 5595.080596716337  # Training-only fallback; DQN derives its bound from train data

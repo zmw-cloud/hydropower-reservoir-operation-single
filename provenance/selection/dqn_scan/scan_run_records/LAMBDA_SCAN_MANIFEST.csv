@@ -1,0 +1,8 @@
+lambda,wave,status,directory
+600,1,new_run,/root/single_dqn_l9_runs/lambda_scan_20261008_153757/lambda_600
+800,1,new_run,/root/single_dqn_l9_runs/lambda_scan_20261008_153757/lambda_800
+1000,1,new_run,/root/single_dqn_l9_runs/lambda_scan_20261008_153757/lambda_1000
+0,2,new_run,/root/single_dqn_l9_runs/lambda_scan_20261008_153757/lambda_0
+300,2,new_run,/root/single_dqn_l9_runs/lambda_scan_20261008_153757/lambda_300
+2000,2,new_run,/root/single_dqn_l9_runs/lambda_scan_20261008_153757/lambda_2000
+1200,0,reused_confirmation,/root/single_dqn_l9_runs/confirmation_lambda1200_20261008_100138/C02_A3B1C3D1

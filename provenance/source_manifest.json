@@ -1,0 +1,1201 @@
+{
+  "src/reservoir_benchmark/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/reservoir_benchmark/evaluation/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\evaluation\\__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/reservoir_benchmark/evaluation/common_metrics.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\evaluation\\common_metrics.py",
+    "original_sha256": "6a764e1a6a857a5cb449ace79acc5a861b5f9cd8b2cbc590f5e44861b0d33471"
+  },
+  "src/reservoir_benchmark/evaluation/ddp/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\evaluation\\ddp\\__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/reservoir_benchmark/evaluation/ddp/ddp_eval.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\evaluation\\ddp\\ddp_eval.py",
+    "original_sha256": "370d8547694f46a2da14f32b7a828e3d1d5c2fc3f4e54e35279328030ced26e7"
+  },
+  "src/reservoir_benchmark/evaluation/dqn/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\evaluation\\dqn\\__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/reservoir_benchmark/evaluation/dqn/dqn_eval.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\evaluation\\dqn\\dqn_eval.py",
+    "original_sha256": "297f6fc9102ef1b3aa2e832302a19ef998cc9b80beaa9c966b25411ddcbf7f25"
+  },
+  "src/reservoir_benchmark/evaluation/iso_surf/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\evaluation\\iso_surf\\__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/reservoir_benchmark/evaluation/iso_surf/iso_surf_eval.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\evaluation\\iso_surf\\iso_surf_eval.py",
+    "original_sha256": "e5a1b5f0d96cf1e2d8ac2cc425b04869466608b4528135556f41188ed188ac1c"
+  },
+  "src/reservoir_benchmark/evaluation/sdp/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\evaluation\\sdp\\__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/reservoir_benchmark/evaluation/sdp/sdp_eval.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\evaluation\\sdp\\sdp_eval.py",
+    "original_sha256": "ddd2b6f701abb12f17bee6d6183acc64a77f58cce768c1162d370b6dac757dd9"
+  },
+  "src/reservoir_benchmark/policy_generation/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\__init__.py",
+    "original_sha256": "b6e47e577114adba1b8f2ff0bbd7babbafc0cb26138234746deca69afee39877"
+  },
+  "src/reservoir_benchmark/policy_generation/ddp/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\ddp\\__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/reservoir_benchmark/policy_generation/ddp/ddp_acceleration.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\ddp\\ddp_acceleration.py",
+    "original_sha256": "f2a99f419d6e375a8651f8b8267d89df793c32b0b3bbece4a03f78ffef1abddd"
+  },
+  "src/reservoir_benchmark/policy_generation/ddp/ddp_solver.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\ddp\\ddp_solver.py",
+    "original_sha256": "ada4d5f76ef2649e5cb5566093912c31c83ddb589fbb7cc5ced028882c3f8d36"
+  },
+  "src/reservoir_benchmark/policy_generation/dqn/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\dqn\\__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/reservoir_benchmark/policy_generation/dqn/dqn_agent.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\dqn\\dqn_agent.py",
+    "original_sha256": "565de0bd9f97c10e9a5f7cbaa846d561f9d54d15253056701ac1a8f8f98fe9a9"
+  },
+  "src/reservoir_benchmark/policy_generation/dqn/dqn_reservoir.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\dqn\\dqn_reservoir.py",
+    "original_sha256": "13cdfd5d07fdc2662f97c133e69bfa09d36f4c2851dc9d218801ad6a649fa92b"
+  },
+  "src/reservoir_benchmark/policy_generation/dqn/dqn_runner.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\dqn\\dqn_runner.py",
+    "original_sha256": "d9e565dd39c87e778b764938412b1b8c6d6a315298bbc153bcec579ad7750ee3"
+  },
+  "src/reservoir_benchmark/policy_generation/iso_rf/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\iso_rf\\__init__.py",
+    "original_sha256": "f12532003603c50dd32911b82fc5bc48fb5001d79b4e28228512271d6ebe1973"
+  },
+  "src/reservoir_benchmark/policy_generation/iso_rf/policy.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\iso_rf\\policy.py",
+    "original_sha256": "78140bba49018db50ca14ba00c8366099a1bf582dd235e60cd985d57bdad3105"
+  },
+  "src/reservoir_benchmark/policy_generation/iso_rf/workflow.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\iso_rf\\workflow.py",
+    "original_sha256": "1a8a3cf78d30a80b35c2dce5acae418ffc0a39deaa4abd744263a1d9d287eb32"
+  },
+  "src/reservoir_benchmark/policy_generation/iso_surf/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\iso_surf\\__init__.py",
+    "original_sha256": "dd219dce07e15b2b92d44d07efaf416d3eb6d1422f6490ace03803f30f5e1649"
+  },
+  "src/reservoir_benchmark/policy_generation/iso_surf/iso_preprocessor.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\iso_surf\\iso_preprocessor.py",
+    "original_sha256": "38c6f3dfb4427616bcec50357fad23a084e113cd28d47a8b7738f24782641b71"
+  },
+  "src/reservoir_benchmark/policy_generation/iso_surf/iso_surf_runner.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\iso_surf\\iso_surf_runner.py",
+    "original_sha256": "d925bf9f5882af8d26979b7d65f2ddc8170e6ae13223a7887af59f06179e2950"
+  },
+  "src/reservoir_benchmark/policy_generation/sdp/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\sdp\\__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/reservoir_benchmark/policy_generation/sdp/sdp_preprocessor.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\sdp\\sdp_preprocessor.py",
+    "original_sha256": "6d0d13721966aee50e66488d9820bc77ad1ea98d1dbee9b8073c34062c003d2a"
+  },
+  "src/reservoir_benchmark/policy_generation/sdp/sdp_probability.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\sdp\\sdp_probability.py",
+    "original_sha256": "508a296086467155cbc1c064f4db3b04017b243ff148b2ddcdf62ed3cc3b8113"
+  },
+  "src/reservoir_benchmark/policy_generation/sdp/sdp_runner.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\sdp\\sdp_runner.py",
+    "original_sha256": "6c3a20282e246862fdfedf8dc5b58d1d797e788b0cdfdf625c85a906164ce265"
+  },
+  "src/reservoir_benchmark/policy_generation/sdp/sdp_solver.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\policy_generation\\sdp\\sdp_solver.py",
+    "original_sha256": "8d5b3f29826d08c7d853af5681c8cb48fca97ce66a4387122ca771471509c368"
+  },
+  "src/reservoir_benchmark/shared/__init__.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\shared\\__init__.py",
+    "original_sha256": "e738a4f108a0108b715e0cbc7609cd14b1624d6e175fc35f554f5987b9704649"
+  },
+  "src/reservoir_benchmark/shared/experiment_contract.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\shared\\experiment_contract.py",
+    "original_sha256": "d7277510c48895c91142ced76dde2490be0c311896a06b99e65fe160b144f2ac"
+  },
+  "src/reservoir_benchmark/shared/io_utils.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\shared\\io_utils.py",
+    "original_sha256": "764abdd2f82cb4a489e2ad828d03906b4aeecd586c0fed37769be7dd3634103f"
+  },
+  "src/reservoir_benchmark/shared/project_paths.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\shared\\project_paths.py",
+    "original_sha256": "9fa5ede7ebe281f28330b08df07c0ec6051a2d4eae86fb1bf67642ad3a0048cc"
+  },
+  "src/reservoir_benchmark/shared/reservoir_model.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\src\\reservoir_benchmark\\shared\\reservoir_model.py",
+    "original_sha256": "7ac142bb52ad1e66500c645ed8bfc61b3c2aec45276be89e9e739105cda19af8"
+  },
+  "LICENSE": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\LICENSE",
+    "original_sha256": "4b4251323b52976bde71015ee0a5a085d8d4062d647930f6bf0e96fdf57f9d5d"
+  },
+  "pyproject.toml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\pyproject.toml",
+    "original_sha256": "a29c980c77398d2d8357da4ae5fac8571c1fbed22c7b5e3d7ddbef794e951503"
+  },
+  "tests/original/test_iso_rf.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\tests\\test_iso_rf.py",
+    "original_sha256": "acd674b6b6f820ca9ed259f146341f2d24b2834803475dd66e923116a28d63f1"
+  },
+  "scripts/run_single_comparison.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\scripts\\run_single_comparison.py",
+    "original_sha256": "098c28d3f36e8a74e4b8bfdf38e0dcedc23db6a3ecdeca22d7e26f39323ea2d0"
+  },
+  "scripts/run_single_dqn.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\scripts\\run_single_dqn.py",
+    "original_sha256": "01f6930ff2986b7c2021f56a72d2354ba8e72d5aa30462708bd536d0b0267c06"
+  },
+  "scripts/run_single_iso_rf.py": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\scripts\\run_single_iso_rf.py",
+    "original_sha256": "ebb697cf427c8d21d01f32d0e61656fceae0d29b819d4868ac9ea34a851be78c"
+  },
+  "data/reservoir_settings.txt": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\data\\reservoir_settings.txt",
+    "original_sha256": "94fc89df6473b5657eb095eed482c0595e1ff0c47a6a443fbe673e66ce41f6fd"
+  },
+  "data/level_storage_curve.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\data\\level_storage_curve.csv",
+    "original_sha256": "335e8484bfb8aa9ca9b109c8fe722fd98e1777ea739e7958b4766d6d278c50df"
+  },
+  "data/tailwater_discharge_curve.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\data\\tailwater_discharge_curve.csv",
+    "original_sha256": "91ec0c590399cfb80e22efd59a35446de3a301f079422c82748a57ec19c6fd7d"
+  },
+  "data/SynMonthlyInflow_train.xlsx": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\data\\SynMonthlyInflow_train.xlsx",
+    "original_sha256": "6a008721c43dc118789444ce20b47ccba258dec27b2331ebec28593238b81885"
+  },
+  "data/SynMonthlyInflow_evaluation.xlsx": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\data\\SynMonthlyInflow_evaluation.xlsx",
+    "original_sha256": "96bbe1ffac9f7d5685869de30b5cd944e5d0eaa2e8ce1e03e7ab9a95e969f177"
+  },
+  "provenance/original_configs/dqn/configs/seed_1/experiment_settings.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::configs/seed_1/experiment_settings.yaml",
+    "original_sha256": "8afcdb7fd2a727976df4e0a6db545223985e02c5b7c89e98622566e673b544b8"
+  },
+  "provenance/original_configs/dqn/configs/seed_100/experiment_settings.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::configs/seed_100/experiment_settings.yaml",
+    "original_sha256": "f86977fd4bfa33212e1f00eb8b498d2f95948e19194f7ad5bf0b26052ed2e545"
+  },
+  "provenance/original_configs/dqn/configs/seed_42/experiment_settings.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::configs/seed_42/experiment_settings.yaml",
+    "original_sha256": "371847ad9ca955807f80774b9c6bd1cd2c0b27cddfdb096801ee86aaf2b3ab12"
+  },
+  "provenance/selection/dqn_final/selection/SELECTED_DQN_HYPERPARAMETERS.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::selection/SELECTED_DQN_HYPERPARAMETERS.yaml",
+    "original_sha256": "727a16eff63b4672928edc3421f0754dadcf4126a19445344927689f638154a3"
+  },
+  "provenance/selection/dqn_final/tables/DQN_FINAL_SEED_RESULTS.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::tables/DQN_FINAL_SEED_RESULTS.csv",
+    "original_sha256": "fd509ef4cc2fc95a36f11e8eb1de6a7e79fd3eef68ce578ffcc54badf76fb234"
+  },
+  "provenance/selection/dqn_final/tables/DQN_FINAL_SUMMARY.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::tables/DQN_FINAL_SUMMARY.csv",
+    "original_sha256": "2e8518c36f5fdcc76ff4852d5e8c9e663ea02360c099fa8c683949c5b51fa13b"
+  },
+  "artifacts/dqn/dqn_train_lambda_650_seed_1.pth": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::models/dqn_train_lambda_650_seed_1.pth",
+    "original_sha256": "458b87d855b55b7f53fe39b8079e86bea56108321783584ca1204bd6fddd4efa"
+  },
+  "artifacts/dqn/dqn_train_lambda_650_seed_42.pth": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::models/dqn_train_lambda_650_seed_42.pth",
+    "original_sha256": "c24185cee0710c0793555ebf8ff4ca7a57b0dbf2c348582293896624f5207444"
+  },
+  "artifacts/dqn/dqn_train_lambda_650_seed_100.pth": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::models/dqn_train_lambda_650_seed_100.pth",
+    "original_sha256": "2a0bd6e5c206c0a12fc507595c59dbadcd81e50a6b6b75facfcc9bc325fb9d9a"
+  },
+  "provenance/selection/dqn_scan/hyperparameter_selection/ALL_12_CONFIG_RANKING.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_lambda_scan_9points_20261009_074704.zip::hyperparameter_selection/ALL_12_CONFIG_RANKING.csv",
+    "original_sha256": "d53912cf8686f0ea4f0ba53d5be2f74beac9ed2e826a35900d0b3813047ad915"
+  },
+  "provenance/selection/dqn_scan/hyperparameter_selection/ALL_12_SEED_RESULTS.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_lambda_scan_9points_20261009_074704.zip::hyperparameter_selection/ALL_12_SEED_RESULTS.csv",
+    "original_sha256": "ab0cb1825720c169674c5064c3446ea3041d68f9dff3d55bb2a80baf238a1d3b"
+  },
+  "provenance/selection/dqn_scan/hyperparameter_selection/CONFIRMATION_PREDICTED_VS_ACTUAL.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_lambda_scan_9points_20261009_074704.zip::hyperparameter_selection/CONFIRMATION_PREDICTED_VS_ACTUAL.csv",
+    "original_sha256": "ee45d2d4dc2d7a902732714bbeceeeec7a0573bead0487bf4fe4da08297db3d0"
+  },
+  "provenance/selection/dqn_scan/hyperparameter_selection/SELECTED_CONVERGENCE_DIAGNOSTICS.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_lambda_scan_9points_20261009_074704.zip::hyperparameter_selection/SELECTED_CONVERGENCE_DIAGNOSTICS.csv",
+    "original_sha256": "63f653bed29d4cc414f1acbfb17bc73ecdfacdc1b290fbee547c536ce4f62d88"
+  },
+  "provenance/selection/dqn_scan/hyperparameter_selection/SELECTED_DQN_HYPERPARAMETERS.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_lambda_scan_9points_20261009_074704.zip::hyperparameter_selection/SELECTED_DQN_HYPERPARAMETERS.yaml",
+    "original_sha256": "727a16eff63b4672928edc3421f0754dadcf4126a19445344927689f638154a3"
+  },
+  "provenance/selection/dqn_scan/hyperparameter_selection/SELECTED_VALIDATION_CURVES.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_lambda_scan_9points_20261009_074704.zip::hyperparameter_selection/SELECTED_VALIDATION_CURVES.csv",
+    "original_sha256": "02434ec0b2f5e23e91e058e576260939af532f8ebcf4119f094f12eae0bf4bfd"
+  },
+  "provenance/selection/dqn_scan/scan_run_records/LAMBDA_SCAN_MANIFEST.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_lambda_scan_9points_20261009_074704.zip::scan_run_records/LAMBDA_SCAN_MANIFEST.csv",
+    "original_sha256": "2df05bc4b58e3156c8fe2ad2f5e569c04bdd2a776caf7bab82d7ff1a2aea52b8"
+  },
+  "provenance/selection/dqn_scan/PACKAGE_INFO.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_lambda_scan_9points_20261009_074704.zip::PACKAGE_INFO.json",
+    "original_sha256": "be0c8c47b3224356c7f62df5e59c8080056a2726e6e6d3f451093793cba628f0"
+  },
+  "provenance/selection/dqn_scan/tables/LAMBDA_SCAN_SEED_RESULTS.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_lambda_scan_9points_20261009_074704.zip::tables/LAMBDA_SCAN_SEED_RESULTS.csv",
+    "original_sha256": "33f6b552a1c08a5ebaa8c6c2612c08914fd42885de6e7cb94f3bc3393883f697"
+  },
+  "provenance/selection/dqn_scan/tables/LAMBDA_SCAN_SUMMARY.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_lambda_scan_9points_20261009_074704.zip::tables/LAMBDA_SCAN_SUMMARY.csv",
+    "original_sha256": "b63de4b8318b1f0745479f77c23870df1bb968d2ee2959da359af468a462e147"
+  },
+  "provenance/original_configs/empty_formal_penalties.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf\\data\\violation_count_penalty_settings.yaml",
+    "original_sha256": "d2fe046d020f7c65d0a5527450d5615ba3d2d77177ead14fae7cc8e68b714e58"
+  },
+  "artifacts/sdp/training/monthly_inflow_model.npz": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::formal_sdp_results/training/monthly_inflow_model.npz",
+    "original_sha256": "096142bd15139aba86ddcb8708b739f6ad70fc8fcf7b01511f4b8b328386a58e"
+  },
+  "artifacts/sdp/policy/sdp_policy_lambda_175.npz": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::formal_sdp_results/policy/sdp_policy_lambda_175.npz",
+    "original_sha256": "a2df85ee39e8ecc9b00b88354ff09a3c8f8f32b61dcc94308b9a838fc9a43832"
+  },
+  "provenance/original_configs/sdp/SynMonthlyInflow_evaluation.xlsx": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::reproducibility_snapshot/data/SynMonthlyInflow_evaluation.xlsx",
+    "original_sha256": "96bbe1ffac9f7d5685869de30b5cd944e5d0eaa2e8ce1e03e7ab9a95e969f177"
+  },
+  "provenance/original_configs/sdp/SynMonthlyInflow_train.xlsx": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::reproducibility_snapshot/data/SynMonthlyInflow_train.xlsx",
+    "original_sha256": "6a008721c43dc118789444ce20b47ccba258dec27b2331ebec28593238b81885"
+  },
+  "provenance/original_configs/sdp/experiment_settings.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::reproducibility_snapshot/data/experiment_settings.yaml",
+    "original_sha256": "fd3340f9dfb71f3d03d53c532b237d17d139644e3dda0c677a2db3d050f8f1ed"
+  },
+  "provenance/original_configs/sdp/level_storage_curve.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::reproducibility_snapshot/data/level_storage_curve.csv",
+    "original_sha256": "335e8484bfb8aa9ca9b109c8fe722fd98e1777ea739e7958b4766d6d278c50df"
+  },
+  "provenance/original_configs/sdp/reservoir_settings.txt": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::reproducibility_snapshot/data/reservoir_settings.txt",
+    "original_sha256": "94fc89df6473b5657eb095eed482c0595e1ff0c47a6a443fbe673e66ce41f6fd"
+  },
+  "provenance/original_configs/sdp/tailwater_discharge_curve.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::reproducibility_snapshot/data/tailwater_discharge_curve.csv",
+    "original_sha256": "91ec0c590399cfb80e22efd59a35446de3a301f079422c82748a57ec19c6fd7d"
+  },
+  "provenance/original_configs/sdp/violation_count_penalty_settings.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::reproducibility_snapshot/data/violation_count_penalty_settings.yaml",
+    "original_sha256": "fb7aa76c7adb27fcda81f78ef06f8caeb6dc0050b40112ed18282f09cacc013e"
+  },
+  "provenance/selection/DDP_PACKAGE_INFO.txt": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DDP\\新50组惩罚系数\\PACKAGE_INFO.txt",
+    "original_sha256": "ff2a8fd13bebc9137c1cefb84c63ffcaacab54e2bc82b7ca18f996004d9dbbf1"
+  },
+  "data/iso_rf_settings.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\reproducibility_snapshot\\data\\iso_rf_settings.yaml",
+    "original_sha256": "512f7ea5fc77a6fdf10d651d9e5a736b3d97bd10291bd56ad944dae67c102333"
+  },
+  "configs/paper/iso_rf700.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\reproducibility_snapshot\\data\\iso_rf_settings.yaml",
+    "original_sha256": "512f7ea5fc77a6fdf10d651d9e5a736b3d97bd10291bd56ad944dae67c102333"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_01/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_01\\validation_segments.csv",
+    "original_sha256": "bd3c21a2cfb6902da98c52f66e06d7164df5edc552bffabc5812dd44d48124e2"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_01/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_01\\validation_summary.json",
+    "original_sha256": "756ce62f007b42a11afab953071ca50c280213c7e1539b3b48bb898924e245c5"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_01/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_01\\validation_trajectory.csv",
+    "original_sha256": "a3f3a03fe89db5f43c820339d6a17e163652b494660c82bb55ddf2e3256924fa"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_02/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_02\\validation_segments.csv",
+    "original_sha256": "a1c1b5a39e0c34c5bbe929a1042b68cdbded6c158eaf0ddf8f7e1e9b942e9a3a"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_02/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_02\\validation_summary.json",
+    "original_sha256": "d593b3d5f845c2972369f2496bfd232a88962134697898d76061ec35296734f8"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_02/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_02\\validation_trajectory.csv",
+    "original_sha256": "4e1544c94af89889c83b5b46bcc3ccb6863e87388c37da66117c8798b1688498"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_03/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_03\\validation_segments.csv",
+    "original_sha256": "fe423cffd1fa66c79ed2d697d6ef2bf20e1e049b1f9ba6293de5bf76d093c07a"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_03/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_03\\validation_summary.json",
+    "original_sha256": "f5accc450cc71b1126c015fa4ecbbb3bb71fa7bd35e4fda84365a431e479505f"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_03/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_03\\validation_trajectory.csv",
+    "original_sha256": "29e0242ec5277cf18a236663801a09757b4d95420157454222ecd02b360751e8"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_04/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_04\\validation_segments.csv",
+    "original_sha256": "94cb8b646f60307b67a5aa4048669d521e2a236730888a786d5d61d638ef89bf"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_04/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_04\\validation_summary.json",
+    "original_sha256": "67cea589effda62ffcda0d23fd22049e257b3ba8f78fc19593d6f7204788f83f"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_04/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_04\\validation_trajectory.csv",
+    "original_sha256": "9b8739cc8d9b79639f00c49a5565df1366e40bd1cf3c08e2657c87d209de5b76"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_05/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_05\\validation_segments.csv",
+    "original_sha256": "488ea1f44c8f43d7a6a743e9bb3ce6ccc407dfef7b83e6d8cd60e1b60b321cbc"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_05/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_05\\validation_summary.json",
+    "original_sha256": "ef03fc2eefa94052b2c9e06ec371c7c7b4eedf028516d2e5eb797ff9fe685a01"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_05/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_05\\validation_trajectory.csv",
+    "original_sha256": "53236e58272bf4443610c29ab513aea951e0c8a90fec49162ff2b0f0865e6e3b"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_06/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_06\\validation_segments.csv",
+    "original_sha256": "02a18e2d79d10df0d02f62e64e6614f061c9827d3a344090339b25e81cc225a2"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_06/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_06\\validation_summary.json",
+    "original_sha256": "4da7030c1fef9b9844a248b0fa69284d3e3f393a9f7cdd1c0467884631772756"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_06/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_06\\validation_trajectory.csv",
+    "original_sha256": "77c366fffea0ae72a2e599e0f151485418979de9f217ef4a48a97f5ad94e6a4d"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_07/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_07\\validation_segments.csv",
+    "original_sha256": "043449123c1d7e4452c082c387b0c1c0625b87a4758493993940e974db1a60fc"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_07/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_07\\validation_summary.json",
+    "original_sha256": "19972bef121d4ef91059541126f45a4bb92cb131b0f6a8091fe060c3cdf2fd3f"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_07/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_07\\validation_trajectory.csv",
+    "original_sha256": "50d020e43e10a9d195f13f03f7d94c1b289954793238024334122f18df06be7d"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_08/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_08\\validation_segments.csv",
+    "original_sha256": "de5e809dcfe795d0c29383eec54c6359b52af0ad46e8b0a434ed663329605643"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_08/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_08\\validation_summary.json",
+    "original_sha256": "c7677c014ce1d6461a0e20eb59288471d3fa19e7e9e4524f8bd805a4cc84c28a"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_08/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_08\\validation_trajectory.csv",
+    "original_sha256": "06c707caf6d47d36cf04410099dfda1146287ea2e275f185ecc6c3efa4c04126"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_09/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_09\\validation_segments.csv",
+    "original_sha256": "e5399d5b133c1ad096a80f247ea51b9c2fb5805b0d5f9ff4557eb431afa018bf"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_09/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_09\\validation_summary.json",
+    "original_sha256": "77226c65b90c3a992694277de6f92c6e2abf1d783b6316ce69ea450ce0ffc77b"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_09/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_09\\validation_trajectory.csv",
+    "original_sha256": "eeeaafe3b1ac76df1d43f2c3ed38ec8540b102382de023ae9e64a3d882278cd1"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_10/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_10\\validation_segments.csv",
+    "original_sha256": "0096ffa198dd4c597a37069304c5febe3069fbf16a56880c822a71585633bb95"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_10/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_10\\validation_summary.json",
+    "original_sha256": "c07143ce99e73f0e4cff9e1fe787ec82fd2ff3ab1771b23248b6e5382c85036e"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_10/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_10\\validation_trajectory.csv",
+    "original_sha256": "02d588027d3c135e39e489737ee400aa633a621cdb8145dae4d8a846cb90384b"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_11/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_11\\validation_segments.csv",
+    "original_sha256": "aaa62a0755e72ec523370a7e59f0c2be7b191c0db0c949cb491938ef18500d18"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_11/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_11\\validation_summary.json",
+    "original_sha256": "cf39483525869e63082f2d7f53e1e82617b5997f10ef92bbda026d83f5b844c9"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_11/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_11\\validation_trajectory.csv",
+    "original_sha256": "21ecab1ef2ca3787c05c4272f71783b655464358d4091c3f2f1a8d014cc057c0"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_12/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_12\\validation_segments.csv",
+    "original_sha256": "f9305218e1a219b53a04879dde12018aaac71e9d7f8affd0673856bc27367178"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_12/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_12\\validation_summary.json",
+    "original_sha256": "956b7167616732188c92798776477783a8465e307a8376971106fdafaae1720a"
+  },
+  "artifacts/iso_rf/development/lambda_1200/candidates/rf_12/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\candidates\\rf_12\\validation_trajectory.csv",
+    "original_sha256": "2ef659ac127942d418728070e5cd8396d009d4aa6bcdd3a00e1e0f57f6161740"
+  },
+  "artifacts/iso_rf/development/lambda_1200/config_snapshot.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\config_snapshot.json",
+    "original_sha256": "e05a670ef2b67e55626a0bea576d6b471a537a399fee72db115f7eba7b0a59c0"
+  },
+  "artifacts/iso_rf/development/lambda_1200/development_results.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\development_results.csv",
+    "original_sha256": "d4da5c9227f669d53387d11f18b042088e31b57cf28a3977ee556fe25fea745f"
+  },
+  "artifacts/iso_rf/development/lambda_1200/search_contract.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\development\\lambda_1200\\search_contract.json",
+    "original_sha256": "2a5a6bd17655a1efcc4a788777f111588fb406f8d6992f493f92db1a6a64de34"
+  },
+  "artifacts/iso_rf/final/lambda_700/iso_rf_final_policy.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\final\\lambda_700\\iso_rf_final_policy.json",
+    "original_sha256": "9d91f5c42a288ca337e0c9768fd02a62474b31cf1af1efd5e98c8cad31650077"
+  },
+  "artifacts/iso_rf/final/lambda_700/iso_rf_final_policy.pkl": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\final\\lambda_700\\iso_rf_final_policy.pkl",
+    "original_sha256": "31bf39a6fb23625c6ae882ede211e4a4a3ef3a0f87a15477eb626031e60f1073"
+  },
+  "artifacts/iso_rf/lambda_scan/iso_rf_50lambda_validation_summary.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\iso_rf_50lambda_validation_summary.csv",
+    "original_sha256": "8abeb7c2f1bba0d54c1a7b79f25a42bf922d0f3fcbce984bfd54196e3558fcca"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_0/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_0\\validation_segments.csv",
+    "original_sha256": "479c3dc05b9408a5f6be315eedaa0cf49855afd5a51e2f69f42fd86c4d04f1ba"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_0/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_0\\validation_summary.json",
+    "original_sha256": "98e9c4949802bab149cd7d8ac54634f15fe228be3f5cb990a048e7b298f2f4ed"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_0/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_0\\validation_trajectory.csv",
+    "original_sha256": "cedd9ee8b7a380a9afd9aaaaa0e5df1ae08b18010fe0ef64c17d0bd198e9898c"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_10/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_10\\validation_segments.csv",
+    "original_sha256": "e695a1dddbb0bf0affb0d8a398db5455bffcedfdaaba097b9f9a37c8d12a2088"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_10/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_10\\validation_summary.json",
+    "original_sha256": "640937f1fe41a187d5f54ca9f78236dc9b50de4d975cbbf6782ecdb0735930df"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_10/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_10\\validation_trajectory.csv",
+    "original_sha256": "0b410991c9d72ea6e1d8e7c627a1b38b2d6b13a70ec6b43503041a1ef4c25876"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_100/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_100\\validation_segments.csv",
+    "original_sha256": "c0ce5bacd7a351a9f01fa76bd4fb96265363eddecc86ac13c5e875ab84507518"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_100/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_100\\validation_summary.json",
+    "original_sha256": "fe67d00bb6661697aa00ca07454f83b6584863692aa76d234e6518627c396bac"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_100/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_100\\validation_trajectory.csv",
+    "original_sha256": "b28b7d34556e6bcc8f6967c6b1926808f4a037456ed71030a70b3721fde5119f"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1000/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1000\\validation_segments.csv",
+    "original_sha256": "7b20aaa1f6a37a1a67d619c659a5007f594092bf4701c98e9df73674b08de148"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1000/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1000\\validation_summary.json",
+    "original_sha256": "6b9c29f41fc9ad4847e613e1ce71b923b1c7b1dc81ab46fb5603c9e601a51aad"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1000/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1000\\validation_trajectory.csv",
+    "original_sha256": "5293ded54e600d54e5a67a8819c1fba711ef96be888fd658af469d996182b402"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1100/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1100\\validation_segments.csv",
+    "original_sha256": "0486c9d7edab7f055c9298708bc316236793ea9419130c346897ba7cee2afec1"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1100/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1100\\validation_summary.json",
+    "original_sha256": "0a56a5c584d673d09576d6fa231155c2eacb5c97773f1e0fc0cf99d26f94b549"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1100/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1100\\validation_trajectory.csv",
+    "original_sha256": "0269adedb03f5b392aabd8388ae4b5795d89519926897e450e69be47a414a8e4"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_125/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_125\\validation_segments.csv",
+    "original_sha256": "9713c3e8b8888a18ebf775fa1ff8af233852f57670dcb314dd0f28f3ed2dee40"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_125/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_125\\validation_summary.json",
+    "original_sha256": "46000c82c83a9088b4bcc7cf234da5e692c4178ad5f482e592c76ce667b09583"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_125/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_125\\validation_trajectory.csv",
+    "original_sha256": "b649a7fe6d7903ab054259fa157a906e5778ea7acdfeaa75a0d88cf88338ac5c"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1300/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1300\\validation_segments.csv",
+    "original_sha256": "be7f53aed9f8682daf03ea5c5aaba57209fdf57f50beb5c04bcf73dfed98242b"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1300/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1300\\validation_summary.json",
+    "original_sha256": "376c52db39643ff87fdf3ae22896af844831a3eb2928fc7176d88637c4b57ace"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1300/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1300\\validation_trajectory.csv",
+    "original_sha256": "567a9bbc62ea4ad2c272cb8b4395e794d720f9de8031b64f4eda943c3c2b5f37"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1400/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1400\\validation_segments.csv",
+    "original_sha256": "750dbaff2dcaebfcd968bbf5bf77559edcb49989e1c408af27d03eb3e38007f6"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1400/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1400\\validation_summary.json",
+    "original_sha256": "8a1615cc71f9871b598c3d39512bee18a9c166997a01bc71188295093cf791c5"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1400/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1400\\validation_trajectory.csv",
+    "original_sha256": "3ee64fef88e6cb831a807c7695911f9bb947a0525dc3c54016d3e4b8d07071d2"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_150/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_150\\validation_segments.csv",
+    "original_sha256": "f95bfec2cbcb6959a6392dda9317c3728d7f5769ceb7156d76563f9c05d5bcb8"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_150/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_150\\validation_summary.json",
+    "original_sha256": "5ab9a247549014329385457cff8670e2becdd1b31316842159ccf4c00920d3c0"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_150/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_150\\validation_trajectory.csv",
+    "original_sha256": "778de56fa658b9ec429c332701a0f19e4b48c71b167167f5df9d377bef692ed0"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1500/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1500\\validation_segments.csv",
+    "original_sha256": "d02c7ddfe958ad31d9a1bcf2ef6ba449233a2fc6681d2ef40b59ba800131f8b2"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1500/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1500\\validation_summary.json",
+    "original_sha256": "5816f186519379470c9b1fd1aa15d20c51140b7e5eb58234dee5325a1f0f1201"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1500/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1500\\validation_trajectory.csv",
+    "original_sha256": "5ae78cbb0e3c2ff3e1a239144d89d00b8a47bf9dd609cfcfb3dd98c4089d6c85"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1600/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1600\\validation_segments.csv",
+    "original_sha256": "f1afbdfd6dc6f9e14890eddf65f6d7d4271d2fed9b877d33da70c2ee4964003a"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1600/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1600\\validation_summary.json",
+    "original_sha256": "007b7baf9ec546b5d68ab92634726d435494bb6d1b5346d53b3483c290bb1255"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1600/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1600\\validation_trajectory.csv",
+    "original_sha256": "a5e2dfdacfff6bca504c69cf389d189713d2119d038af36c8f13c3354132e075"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1700/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1700\\validation_segments.csv",
+    "original_sha256": "2eda8d8752c5220e6ed0dab37e8cdfc579f4bf685a91aa4e82741a0d342dcd2e"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1700/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1700\\validation_summary.json",
+    "original_sha256": "b21262efcae119b6a7610f7fb9421c7b2bf45ede5256099c54b0fc82f92e7dc7"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1700/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1700\\validation_trajectory.csv",
+    "original_sha256": "e4c857f798adc1bf1b8a737229278bf886aa2019c097c831a8c3c3e38b862e5b"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_175/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_175\\validation_segments.csv",
+    "original_sha256": "dc7319cdf1138a7653168aad05a863c4f3824513898debe792ed97842828fa3c"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_175/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_175\\validation_summary.json",
+    "original_sha256": "b165edfa17720650911ad60e9413e7284ed4056fbba782d59991b90474d0a5e0"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_175/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_175\\validation_trajectory.csv",
+    "original_sha256": "8b9d951d93673648b5b294c7155f5f4849b852fdeb49294d3ce9168b03b28336"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1800/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1800\\validation_segments.csv",
+    "original_sha256": "2eda8d8752c5220e6ed0dab37e8cdfc579f4bf685a91aa4e82741a0d342dcd2e"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1800/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1800\\validation_summary.json",
+    "original_sha256": "98b765e431721380b4d2dd04064f4591e9c42a66eb7976fa336f7da1d8d70f1c"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1800/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1800\\validation_trajectory.csv",
+    "original_sha256": "c5ab2c495246248dd5468c6de7a3c459114ba1f5de5ca38d1849787ac33900d7"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1900/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1900\\validation_segments.csv",
+    "original_sha256": "852075f998b3033986af887e909fee5c8093e1219dda716932e9fd7f826443cf"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1900/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1900\\validation_summary.json",
+    "original_sha256": "001021e1cecc7450817bab5868111d679f3657e8c6f2ba772c2901674d8623b6"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_1900/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_1900\\validation_trajectory.csv",
+    "original_sha256": "b27efe86a4fbb4a9c775ab68a8179cbe392e340c30066dad6c7e0aa70af8c8ee"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_20/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_20\\validation_segments.csv",
+    "original_sha256": "f917954bba05e5b394e0de0cfb520d4969eba4291ec7cf7cf39aa9bc2c7240fb"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_20/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_20\\validation_summary.json",
+    "original_sha256": "06f945811084e3b0d798c3665f09f3ea260bf85eb68c685cf1ebb77a246ef300"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_20/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_20\\validation_trajectory.csv",
+    "original_sha256": "aa89182d8e1090af9a7279677aa34118f0b38246fa6350a4d085e693115b1edd"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_200/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_200\\validation_segments.csv",
+    "original_sha256": "4d896618b2136cf07391585cb4f10bd550439981b0da67185bf20a00094c2dcd"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_200/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_200\\validation_summary.json",
+    "original_sha256": "e93eed023c8696f65d94dbe6e003d9ac9ea83d02b80ce300194d13024b0534ac"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_200/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_200\\validation_trajectory.csv",
+    "original_sha256": "bce12fc62f4cc297a42611c6f248263edfff00d8f9bf574de2796f0a7db63336"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2000/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2000\\validation_segments.csv",
+    "original_sha256": "adb5ee887d59e09e4cc95fc52644c06d10ceb149a8a93df686965f4725c8ec17"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2000/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2000\\validation_summary.json",
+    "original_sha256": "82d0a6f60834e7d3ce41ba3677301073ade01ac8f00c2d3f93498c588656a7da"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2000/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2000\\validation_trajectory.csv",
+    "original_sha256": "35af02a444c6294846b41b038fed201c1a685f201a681407ba21f6c63d86e24d"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_225/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_225\\validation_segments.csv",
+    "original_sha256": "af117329f423d85c1fe25a46fd16c812f5e1a53f7e95da0810adf00689674c47"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_225/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_225\\validation_summary.json",
+    "original_sha256": "5d776102c66275b708c6767c45246ddac0f5409352637ad1b611965bafb7e408"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_225/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_225\\validation_trajectory.csv",
+    "original_sha256": "cfa93244f85fc71f9523b54d0a4c24b1bacaf7cf823c97a697de260eed3bcf49"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2250/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2250\\validation_segments.csv",
+    "original_sha256": "adb5ee887d59e09e4cc95fc52644c06d10ceb149a8a93df686965f4725c8ec17"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2250/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2250\\validation_summary.json",
+    "original_sha256": "4f44a04b056c9c3474d8c7dfb139c461e1fdfb0208d4cfd8c17b7f71e788242a"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2250/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2250\\validation_trajectory.csv",
+    "original_sha256": "34bf88e95409f73ce4f2830d38c1a0078d9c9762777ca582839d1d44a30ac69f"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_250/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_250\\validation_segments.csv",
+    "original_sha256": "17e36abf832a24e0409b31c2b25fdc08984722a5261e514fdd29d39478982cbe"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_250/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_250\\validation_summary.json",
+    "original_sha256": "38aa56351a266a79fd0ab6f9963fcda7d0d4a6ec8eaf58bb9a92339b4bca6a9f"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_250/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_250\\validation_trajectory.csv",
+    "original_sha256": "585f336915b9335e7de20c62a4e653b159fec19e9b943251d75edaa9cbcff0ef"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2500/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2500\\validation_segments.csv",
+    "original_sha256": "adb5ee887d59e09e4cc95fc52644c06d10ceb149a8a93df686965f4725c8ec17"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2500/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2500\\validation_summary.json",
+    "original_sha256": "bd4c574166722c02115f62e7b87c0833dd4d6614372164bf2ee85a3e78d1c9ed"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2500/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2500\\validation_trajectory.csv",
+    "original_sha256": "d5783b938f4945c08ab4703378f05676f762aa08e266a33318464c1f01a693a7"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_275/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_275\\validation_segments.csv",
+    "original_sha256": "313138f51b6b1373d1ad9d43d07134fe6b6a384919fb8c13db6161904b4dc8cf"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_275/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_275\\validation_summary.json",
+    "original_sha256": "dbab4d2218a13fdc855ec86ab5e84639a205ba0213e041891ab487c91f46096c"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_275/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_275\\validation_trajectory.csv",
+    "original_sha256": "b23298fd6192436e2a4a868bf6194f49cf0b6047bd059c7be2b8f9eaac48c233"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2750/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2750\\validation_segments.csv",
+    "original_sha256": "e3274ffb345057c41c8c99f570bdd90a537ce724ba0079220209ee7aa3cd636d"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2750/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2750\\validation_summary.json",
+    "original_sha256": "f3c6713e95c32d235e185ff8ec3eea1b3689b6755856e443bb424f06741e83e2"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_2750/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_2750\\validation_trajectory.csv",
+    "original_sha256": "16954b0446fe95cacf863d95deac15ee420c03ab994c0eceb72343cf65f52de2"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_30/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_30\\validation_segments.csv",
+    "original_sha256": "db744d928ecdf499f6e4b6f81662086933c954b8e1c1d60aec99c8ce7ca967dd"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_30/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_30\\validation_summary.json",
+    "original_sha256": "abc9bcee24c7d6b58f0da14ced376fb534870e40a9683e14a9329ac9c6075682"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_30/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_30\\validation_trajectory.csv",
+    "original_sha256": "053b7585bb63a667979ac60dbbc7e6606aced30c048926fd16c9dbb3ecbf010a"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_300/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_300\\validation_segments.csv",
+    "original_sha256": "a8c931c53450e990e8d52f679fd4cb134055126171bc9bdf664806b72c6444d7"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_300/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_300\\validation_summary.json",
+    "original_sha256": "9682d8679dc1cbcfa84b95358f4f2881e3fd611c0c59a42a9163cad9dd206414"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_300/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_300\\validation_trajectory.csv",
+    "original_sha256": "dd8b30c6950d8b08ed56325126d5b4e2d2500a1fe6b6ba90d6fad09476cbef3f"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_3000/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_3000\\validation_segments.csv",
+    "original_sha256": "e3274ffb345057c41c8c99f570bdd90a537ce724ba0079220209ee7aa3cd636d"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_3000/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_3000\\validation_summary.json",
+    "original_sha256": "5132e8005988b9b4937f8f15b87c74435ec944202066225b8e73ee41b9d6cd04"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_3000/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_3000\\validation_trajectory.csv",
+    "original_sha256": "2a8f413a944f2bc9fe831d739c6dd9c57cb3ff274edb915fd01b103e65dce020"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_3250/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_3250\\validation_segments.csv",
+    "original_sha256": "e3274ffb345057c41c8c99f570bdd90a537ce724ba0079220209ee7aa3cd636d"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_3250/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_3250\\validation_summary.json",
+    "original_sha256": "06b98e385b47f6cb0d7ae4cab2621aea48f61f81dcf15f00ab614703faaf7f33"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_3250/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_3250\\validation_trajectory.csv",
+    "original_sha256": "9c1c62644f88fb7a898dcb4f3dd8197a891c051ee2c6ab3b2ef8f823cf9b3019"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_350/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_350\\validation_segments.csv",
+    "original_sha256": "f125bd913fd360981449df7478dc8ec542caf9b8d59103a9f0f774a16a386fde"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_350/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_350\\validation_summary.json",
+    "original_sha256": "a5a59ee4c162b1e4288704b7e4123e0fec7dc1a496629e26beaaed79934db5ca"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_350/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_350\\validation_trajectory.csv",
+    "original_sha256": "ff47f8b6191dee40cfc784d9ce59107fff5026615efaa97499343c75f5447bc3"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_40/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_40\\validation_segments.csv",
+    "original_sha256": "c5da4bd66e8d4ea256f8f74015260035d299fad3e84f5cf6d0bd11c4b03d9b1e"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_40/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_40\\validation_summary.json",
+    "original_sha256": "f85427f422d7b5414215babc5c7d359ef28343c4eddc9c01c93798c7de99cdfe"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_40/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_40\\validation_trajectory.csv",
+    "original_sha256": "660184e8cbdd652aa2ca051a073f5372b9b5aa23be44d93c6471a9d8460efe74"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_400/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_400\\validation_segments.csv",
+    "original_sha256": "383d532da9ad31487d56faff6684e50566af0268be45d9afc600d914d2cf0279"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_400/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_400\\validation_summary.json",
+    "original_sha256": "a6301d222b51867a9d178afc564558ee5e7e64d4288b8d519a47c6cd51ddcb37"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_400/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_400\\validation_trajectory.csv",
+    "original_sha256": "675c5e12d4b4384654ffb622b696708f1c401cf913d8fcbbdaee1167f3ed23bd"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_4000/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_4000\\validation_segments.csv",
+    "original_sha256": "e3274ffb345057c41c8c99f570bdd90a537ce724ba0079220209ee7aa3cd636d"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_4000/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_4000\\validation_summary.json",
+    "original_sha256": "a198cbd26478aa7c59b7521c43365e99cf86fd55a0a9b27db137ddf6856829e3"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_4000/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_4000\\validation_trajectory.csv",
+    "original_sha256": "8e57ef6da745a2a0a128c7d3ba1850301b40397a4e3a4893bf01b1cddb77244a"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_450/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_450\\validation_segments.csv",
+    "original_sha256": "f5a171c28b7aff54ce3d1cada744e59c2fad01e4d6ee67d18d0c3476bfa9167b"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_450/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_450\\validation_summary.json",
+    "original_sha256": "c44d0e3e17fda17d147433b5cbc2698def85cb71ab199e63810b3b65da126a79"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_450/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_450\\validation_trajectory.csv",
+    "original_sha256": "e9cb2493eec2195aa9d3e49872a1f19edba06cf9c9376db1a0a89d1ab82617c8"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_50/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_50\\validation_segments.csv",
+    "original_sha256": "414b5c892204eac482b58ee54d8c31b668a8926494d820807ed321bdef7f3b9f"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_50/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_50\\validation_summary.json",
+    "original_sha256": "749fe63859bb79bda22eaa0341c7a1e5f32f2ed01f4778fb88539a039fcc2d33"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_50/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_50\\validation_trajectory.csv",
+    "original_sha256": "47d7c89e487396ddf0fe899c8ad23c84c8c9b6136c1de5243d23ca08995a14eb"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_500/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_500\\validation_segments.csv",
+    "original_sha256": "635fc5ec22b2bfde7b66d51d5adca006a1cb2a3563c8dfd24297941975ba9927"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_500/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_500\\validation_summary.json",
+    "original_sha256": "86518f6fa96fead85ac6124eaa3817149c2d0bc0473b047bec0c51d560abadc3"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_500/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_500\\validation_trajectory.csv",
+    "original_sha256": "c5b39c8ceeb7fab9a620b3ce26b4e2b13b412ddfb66d2c7823f5777a62c530a0"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_5000/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_5000\\validation_segments.csv",
+    "original_sha256": "e3274ffb345057c41c8c99f570bdd90a537ce724ba0079220209ee7aa3cd636d"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_5000/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_5000\\validation_summary.json",
+    "original_sha256": "aff8d8396cdeafbdc36d35beb6af8e424f0a451951c5d3863539cc38c275d2a2"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_5000/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_5000\\validation_trajectory.csv",
+    "original_sha256": "228814b9b9adbbf634fb401e6326c2c9678c22cd1b58b668b04d9ec88a012c52"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_550/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_550\\validation_segments.csv",
+    "original_sha256": "ca40c9faf0ff4ade1e13e5376ec59511d2f9dc5c249e14b7ea3954e697d4598d"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_550/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_550\\validation_summary.json",
+    "original_sha256": "8b38d6994fa9903cfb5780213fd2f13d65de16aef1d0dca371edc910b527fa10"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_550/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_550\\validation_trajectory.csv",
+    "original_sha256": "f6d8386bf028ae5a418c283add0e521f7145e2def61cbaa669710acfda7fbdde"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_60/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_60\\validation_segments.csv",
+    "original_sha256": "dabf764be05f1fce4134cc4a6a4f30e072fdeafb2e9109caa3de73e58190cc8f"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_60/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_60\\validation_summary.json",
+    "original_sha256": "b3d8cd52224d114e823b891ed8cfd0a52ab01307fdb303311e3281416717707d"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_60/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_60\\validation_trajectory.csv",
+    "original_sha256": "12769bb3807e2abe660459caaf378c70f83e3364a9edda05b8df5a45707d2fc2"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_600/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_600\\validation_segments.csv",
+    "original_sha256": "391511c6c27c5e084aa28b6684bffec9554ec74b6dd6d0bda1cf2ffc5aa1fa93"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_600/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_600\\validation_summary.json",
+    "original_sha256": "aff575dfe6d87017d1318faa950e9c4f0ce7eb6ca9bdbbd962be128bfa5cd5cb"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_600/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_600\\validation_trajectory.csv",
+    "original_sha256": "84370f71fec0f9deb1e05fa87db2f84824c363bbf020117d73d524e266a8147a"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_650/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_650\\validation_segments.csv",
+    "original_sha256": "9bd20dbc46d6ed2c5412bb669c2a493949cf121564b55d06d948dbd95683de2f"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_650/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_650\\validation_summary.json",
+    "original_sha256": "f1214cfee5f138f05ff10cbca843961c5b59599deba0a5b8bf969d70a7e6af8b"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_650/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_650\\validation_trajectory.csv",
+    "original_sha256": "4ae33b98ae360fd3dc6192aedb1fae7379e9d68b99ae6bc963581724a183dcff"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_70/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_70\\validation_segments.csv",
+    "original_sha256": "d3112a8b53c71a70016ccdd133d3f434691864e182fb433d884d0a6cdeeed939"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_70/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_70\\validation_summary.json",
+    "original_sha256": "e75d9eb5013a60ce566d70e52f5b73d1813e4264dabf312f8069d2aabfcfaa16"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_70/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_70\\validation_trajectory.csv",
+    "original_sha256": "7c6a1a41f43c27cb6e2c5440397c016ee3c42c109fa85f12571cad8025db589a"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_700/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_700\\validation_segments.csv",
+    "original_sha256": "ed42c9977eaf7e69f6b6a5ed97be9f14ae37a407e5b320a3a33136867176fa7f"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_700/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_700\\validation_summary.json",
+    "original_sha256": "f44ff1ac29060ee0eedf484c1882e1db99260c12a66ac606cbc2ee2fbdfdad60"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_700/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_700\\validation_trajectory.csv",
+    "original_sha256": "162c8269f52a05c904b6f29152f60ff7b05e088fea1420bcf6e79271d7a41937"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_750/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_750\\validation_segments.csv",
+    "original_sha256": "b4a044337ef9435ed1085e6013f513296a6068cb770557de83ee1b348efe1b50"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_750/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_750\\validation_summary.json",
+    "original_sha256": "0be61a41343f49604a61821503236a76aae428ec214fc93349def48cb0e8ce54"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_750/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_750\\validation_trajectory.csv",
+    "original_sha256": "b00897772180c0bef859f52c9cee338f51d3f27447e8fc8329e29e5e0e9e117c"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_80/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_80\\validation_segments.csv",
+    "original_sha256": "e50898772e6b277b375331bfa7ed51ace3deda78e794e0fe1fdbbdf7800660e3"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_80/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_80\\validation_summary.json",
+    "original_sha256": "657508c51f25c5cb95f41602d5836acc0e40c5cee89e249c4ca8c103e059e589"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_80/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_80\\validation_trajectory.csv",
+    "original_sha256": "122be402dfdeb6b2c3ad01ebcfe7d385cd34cee69285c1d37832d7e4f9215e02"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_800/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_800\\validation_segments.csv",
+    "original_sha256": "970b69b755b9a55c160f03c986037237e8c496126bb215c88912e7741a5ad5f6"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_800/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_800\\validation_summary.json",
+    "original_sha256": "ab763fc6f15c2756cbddd71beb3c3602076dfc699b08ec18584cc6e07bab78be"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_800/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_800\\validation_trajectory.csv",
+    "original_sha256": "8bd5e8ca7f259d404f5438ca8111ccffd25dd72860003ea8e06bdc30f158e597"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_850/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_850\\validation_segments.csv",
+    "original_sha256": "b7554b6cefba85b59b5d4c00b6e5adc191f6570a5be8da12c08a3817acc31c42"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_850/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_850\\validation_summary.json",
+    "original_sha256": "a57d7190b12a79f8566498cae6d3de361924195d12789b269b5f39894f5ddbbb"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_850/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_850\\validation_trajectory.csv",
+    "original_sha256": "2c2df77d82b9873a3d4ae9163c8e7f3c8e529b49e7b3ac2d18b8a6c6856e97fa"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_90/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_90\\validation_segments.csv",
+    "original_sha256": "27b2932b5660e98a8e337c600fa608589a3050be88b9ffa5a60aafc2b8794365"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_90/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_90\\validation_summary.json",
+    "original_sha256": "7451a50d51b662fd7b8b8a369597101ee66d575b641e6bf4d84d3e55615b078c"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_90/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_90\\validation_trajectory.csv",
+    "original_sha256": "afc9df4fa9386360d3560f41754fa58e2f50f8f68316da60416092b862a00174"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_900/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_900\\validation_segments.csv",
+    "original_sha256": "0268162e608bea1d9d12b94f8a7a019436e77db427ddc05f4c6d1b770ecfbc90"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_900/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_900\\validation_summary.json",
+    "original_sha256": "57bfb8de0c72ea42ff744bffbcca0cda8c22de276c597c1a9f39551878266f03"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_900/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_900\\validation_trajectory.csv",
+    "original_sha256": "3694cfff8e43b3d29e7d9ebce3baba7628e38349c6b5824606aee72bd4ef9d32"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_950/validation_segments.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_950\\validation_segments.csv",
+    "original_sha256": "45fa526be22c3f16f387e5a4f2262fc5c05d169c92cb2a01843daf49e884bc80"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_950/validation_summary.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_950\\validation_summary.json",
+    "original_sha256": "d477e2ef02636b83a7f09e11f79f87dd64eec4a5d0c3f0455a668bc8a09fdd49"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_950/validation_trajectory.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_950\\validation_trajectory.csv",
+    "original_sha256": "ed878e40dd60bf8d0fe97ea33482aee94b59f397d8ec663795b3859ae57fecd4"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_scan_results.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_scan_results.csv",
+    "original_sha256": "3cee1ea4f2be9a37ab37bb3380700eb84d06634d95f1c5b280a989a31e023b0d"
+  },
+  "artifacts/iso_rf/lambda_scan/lambda_selection_ranking.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\lambda_selection_ranking.csv",
+    "original_sha256": "1cd910ff29899484fb59d7fcafe099fe58f24aea665cbe66a161464d94b05b79"
+  },
+  "artifacts/iso_rf/lambda_scan/scan_contract.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\lambda_scan\\scan_contract.json",
+    "original_sha256": "c4415390dbebc5c30b551583e72e7cecb47f9bdfc376d86312ae003abe21dd3d"
+  },
+  "artifacts/iso_rf/selection/selected_hyperparameters.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\selection\\selected_hyperparameters.json",
+    "original_sha256": "6f4f2a2536e9e358ea3281c1761015ef10f6ff47cbf1ef3398c6395df16bcbc4"
+  },
+  "artifacts/iso_rf/selection/selected_lambda.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\selection\\selected_lambda.json",
+    "original_sha256": "59e9700f1308152d96849311dff5d7323c2d3c186e14d3655ee71972116bcc58"
+  },
+  "artifacts/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_1200.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\teachers\\development_train_320y\\ddp_teacher_lambda_1200.csv",
+    "original_sha256": "1fbd9d843ba41dac6e7cbacbbe10f15fe0e28532f11bdc509d07142f070933aa"
+  },
+  "artifacts/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_1200.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\teachers\\development_train_320y\\ddp_teacher_lambda_1200.json",
+    "original_sha256": "f68af91db1cdd85e6f1668bca463c76b50542a8f24db427bea3ac5531512e51c"
+  },
+  "artifacts/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_700.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\teachers\\development_train_320y\\ddp_teacher_lambda_700.csv",
+    "original_sha256": "c42c9e87170868eb05228d53bd5a9656f1e6f758e70e4db5665dea88d5035ee8"
+  },
+  "artifacts/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_700.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\teachers\\development_train_320y\\ddp_teacher_lambda_700.json",
+    "original_sha256": "4f40c760cf54ec19edc3d4b1c2679cf441728384544c2a6be530f179c404052b"
+  },
+  "artifacts/iso_rf/teachers/full_train_400y/ddp_teacher_lambda_700.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\teachers\\full_train_400y\\ddp_teacher_lambda_700.csv",
+    "original_sha256": "9c929727c325b9f36b3f6f7ca42b3d07990e5553b1aa6a27f32fe3f41bb86f60"
+  },
+  "artifacts/iso_rf/teachers/full_train_400y/ddp_teacher_lambda_700.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\teachers\\full_train_400y\\ddp_teacher_lambda_700.json",
+    "original_sha256": "4107aeac727e6d4d8986cb4249b48eea9b150156fda957327a0aee75e4930232"
+  },
+  "configs/sweeps/iso_rf_validation50.yaml": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\reproducibility_snapshot\\data\\iso_rf_settings.yaml",
+    "original_sha256": "512f7ea5fc77a6fdf10d651d9e5a736b3d97bd10291bd56ad944dae67c102333"
+  },
+  "reference_results/single/inputs/2f03cfeac27b/ddp_eval_lambda_70.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DDP\\新50组惩罚系数\\formal_results\\ddp_eval_lambda_70.csv",
+    "original_sha256": "2a8b81c02044c0638273240528cdd8e6b341ba5633de4a00214ec564e28ad95d"
+  },
+  "reference_results/single/inputs/888af1a681e2/ddp_eval_lambda_70.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DDP\\新50组惩罚系数\\formal_results\\ddp_eval_lambda_70.json",
+    "original_sha256": "72b14c5987333e3857dd7c218d50fb177483b73254db7e460eaa200a1dfbf95b"
+  },
+  "reference_results/single/inputs/e83bc4f96342/sdp_eval_lambda_175.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::formal_sdp_results/evaluation/sdp_eval_lambda_175.csv",
+    "original_sha256": "d5b90c19d75af773baaa17c32542d71070ab734d6140750e44bd2ded9b732486"
+  },
+  "reference_results/single/inputs/4469d472ac7f/sdp_eval_lambda_175.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\SDP\\sdp_dense50_violation_count_results_20261007_173711.zip::formal_sdp_results/evaluation/sdp_eval_lambda_175.json",
+    "original_sha256": "3aff863c8970a2e9570b8718f04db57e032d66af59353b47ede39602afabc0ff"
+  },
+  "reference_results/single/inputs/c00a206329c0/iso_rf_eval_lambda_700.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\evaluation\\iso_rf_eval_lambda_700.csv",
+    "original_sha256": "cfbc80c46b7d02a0d173327518c3f5f6946ced28826eab06ab0df9b693e92417"
+  },
+  "reference_results/single/inputs/fc5bd74c0a3c/iso_rf_eval_lambda_700.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\ISO\\iso_rf_50lambda_final700_results_20261012_233712\\formal_iso_rf_results\\evaluation\\iso_rf_eval_lambda_700.json",
+    "original_sha256": "6cda081f49bf28f6873d9d4154a2bb09851199c1992064426a6966a701fc4f7c"
+  },
+  "reference_results/single/inputs/67e392cc8c90/seed_1/dqn_eval_lambda_650_seed_1.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::evaluation/by_seed/dqn_eval_lambda_650_seed_1.csv",
+    "original_sha256": "4914a6fa2eb5fffedbef3e717865d64036af0abac9af27b3720c1d0aa679ad11"
+  },
+  "reference_results/single/inputs/87ff109b7a49/seed_1/dqn_eval_lambda_650_seed_1.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::evaluation/by_seed/dqn_eval_lambda_650_seed_1.json",
+    "original_sha256": "733c5346103b93a2e0e99705eb0e055ddbdf5e2308162b5c1279bb4242f05c1b"
+  },
+  "reference_results/single/inputs/67e392cc8c90/seed_42/dqn_eval_lambda_650_seed_42.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::evaluation/by_seed/dqn_eval_lambda_650_seed_42.csv",
+    "original_sha256": "bae5fc02b0ede539b6925e470fb9850384e57ac8dac055b2cd5f0e355c2f8937"
+  },
+  "reference_results/single/inputs/87ff109b7a49/seed_42/dqn_eval_lambda_650_seed_42.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::evaluation/by_seed/dqn_eval_lambda_650_seed_42.json",
+    "original_sha256": "7463f8e41493fd1d6b0864b6d06694a4c243166c72b930aa8857b7b13026cfcc"
+  },
+  "reference_results/single/inputs/67e392cc8c90/seed_100/dqn_eval_lambda_650_seed_100.csv": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::evaluation/by_seed/dqn_eval_lambda_650_seed_100.csv",
+    "original_sha256": "d5d174758e42cc92f3e3c4bb09bb5e940479441b7b050d731075a0fb34afea6c"
+  },
+  "reference_results/single/inputs/87ff109b7a49/seed_100/dqn_eval_lambda_650_seed_100.json": {
+    "source": "D:\\pycharm\\Platform-for-monthly-hydropower-reservoir-operation-single-comparison\\outputs\\DQN\\dqn_final_lambda650_B2300_20261009_074704.zip::evaluation/by_seed/dqn_eval_lambda_650_seed_100.json",
+    "original_sha256": "90fdc7ab6ece55d1ec57e9d870843eadfe05d157e89a861770f48e692c8b1c47"
+  },
+  "scripts/run_workflow.py": {
+    "source": "integration-generated:run_workflow.py",
+    "original_sha256": "7db53d01997e3edbc5902fef91f9c699ade78fa0d7e7122e165ef5e13f8b2f6b",
+    "kind": "integration_tooling"
+  },
+  "scripts/audit_repository.py": {
+    "source": "integration-generated:audit_repository.py",
+    "original_sha256": "247e67a330e12d346114f1d73b343eb592eb17d90a4e533f04f8ff0a722b16b3",
+    "kind": "integration_tooling"
+  },
+  "tests/test_integration.py": {
+    "source": "integration-generated:test_integration.py",
+    "original_sha256": "0120e5d860bba29e23a1cfe846312253254989ee2912a5c1ba14163db31486be",
+    "kind": "integration_tooling"
+  },
+  "docs/SI_SOURCE_MAP.md": {
+    "source": "integration-generated:SI_SOURCE_MAP.md",
+    "original_sha256": "1975dc12b9bac6d92c4238ac8285719a3949143df1d4db28907af994113644db",
+    "kind": "integration_tooling"
+  },
+  "docs/DECISIONS.md": {
+    "source": "integration-generated:DECISIONS.md",
+    "original_sha256": "496eb2f2602eb8cf700d885d6dca7cb5273f6f71a1222e57d06654be372fd853",
+    "kind": "integration_tooling"
+  },
+  "docs/REPRODUCTION.md": {
+    "source": "integration-generated:REPRODUCTION.md",
+    "original_sha256": "d50d40574f8c762523ad41ee5322f41db10dfb61b9445b99d1d0cf85bd03bb67",
+    "kind": "integration_tooling"
+  },
+  "README.md": {
+    "source": "integration-generated:README_single.md",
+    "original_sha256": "6665469559757e703f05c4fbc87b8d7b54ee499db1d024920eeb2a74e7c9b1f5",
+    "kind": "integration_tooling"
+  }
+}

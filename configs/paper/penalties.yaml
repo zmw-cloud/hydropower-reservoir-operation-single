@@ -1,0 +1,16 @@
+version: 1
+objective_version: single_violation_count_v1
+penalty_definition: generation_gwh_minus_lambda_per_failed_reservoir_month
+penalty_unit: GWh_per_failed_reservoir_month
+strict_failure_comparison: power_kw < firm_power_kw
+ddp:
+  candidates:
+  - 70
+sdp:
+  candidates:
+  - 175
+iso_surf:
+  candidates: []
+dqn:
+  candidates:
+  - 650

@@ -1,0 +1,38 @@
+selection_stage: l9_plus_three_confirmations
+selection_lambda_anchor: 1200.0
+selection_metric: three_seed_mean_of_each_seed_best_mean_annual_penalized_objective_gwh
+tie_breaker: lower_seed_standard_deviation_then_higher_worst_seed_score
+selected_source_type: confirmation
+selected_configuration: C02_A3B1C3D1
+selected_configuration_directory: /root/single_dqn_l9_runs/confirmation_lambda1200_20261008_100138/C02_A3B1C3D1
+actual_rank: 1
+three_seed_mean_best_validation: 17761.777342839872
+seed_std_best_validation: 20.450420060276848
+seed_min_best_validation: 17743.85852231279
+mean_annual_generation_gwh: 19681.777342839876
+mean_guarantee_rate_pct: 86.66666666666667
+median_best_episode: 2600
+best_episode_range:
+- 2500
+- 2700
+frozen_hyperparameters:
+  learning_rate: 0.0008
+  gamma: 0.97
+  replay_buffer_size: 50000
+  learning_starts: 10000
+  batch_size: 128
+  epsilon_decay_steps: 72000
+  target_update_interval: 400
+  epsilon_start: 0.95
+  epsilon_end: 0.01
+  network_hidden_dimensions:
+  - 1536
+  - 768
+  - 384
+  episode_months: 240
+  development_episode_budget: 3000
+  development_seeds:
+  - 1
+  - 42
+  - 100
+status: hyperparameters_selected_lambda_not_yet_selected

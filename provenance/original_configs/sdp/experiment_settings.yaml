@@ -1,0 +1,59 @@
+
+sdp:
+  water_level_step: 1.0
+  n_inflow_classes: 10
+  probability_method: monthly_equal_width_empirical_frequency
+  representative_inflow: interval_midpoint
+  solver:
+    method: cyclic_relative_value_iteration
+    max_iterations: 400
+    tolerance_gwh: 0.00001
+    stable_policy_iterations: 2
+
+iso_surf:
+  smoothing_factor: 1.0
+  spline_order: [3, 3]
+  grid_size: 25
+  max_factor: 10000
+  min_samples_spline: 20
+
+dqn:
+  agent:
+    learning_rate: 0.0008
+    reward_decay: 0.97
+    epsilon_start: 0.95
+    epsilon_end: 0.01
+    epsilon_schedule: linear_environment_steps
+    epsilon_decay_steps: 288000
+    learning_starts: 10000
+    learn_every_steps: 1
+    updates_per_learning_event: 1
+    replace_target_iter: 400
+    memory_size: 1000
+    batch_size: 128
+    firm_penalty_lambda: null  # required explicitly by the formal CLI
+
+  network:
+    hidden_size: 768
+
+  train:
+    development_episode_budget: 10000
+    final_budget: null
+    max_steps: 240
+    num_envs: 1
+    validation_interval_episodes: 100
+    use_amp: false
+    reward_clip: null
+
+  validation:
+    development_years: 320
+    validation_years: 80
+    checkpoint_metric: mean_annual_penalized_objective_gwh
+
+  experiment:
+    seed_list: [1, 42, 100]
+    hyperparameter_status: candidate_not_frozen_for_new_objective
+
+  display:
+    show_progress: true
+    progress_update_freq: 10

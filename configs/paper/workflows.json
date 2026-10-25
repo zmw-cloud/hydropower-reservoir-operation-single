@@ -1,0 +1,1340 @@
+{
+  "system": "single",
+  "formal_scenarios": [
+    "train",
+    "evaluation"
+  ],
+  "methods": {
+    "ddp": {
+      "penalty": 70
+    },
+    "sdp": {
+      "penalty": 175
+    },
+    "iso": {
+      "penalty": 700,
+      "config": "data/iso_rf_settings.yaml"
+    },
+    "dqn": {
+      "penalty": 650,
+      "final_budget": 2300
+    }
+  },
+  "bindings": [
+    {
+      "source": "artifacts/dqn/dqn_train_lambda_650_seed_1.pth",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/dqn/policy/dqn_train_lambda_650_seed_1.pth",
+      "stages": [
+        "evaluate"
+      ]
+    },
+    {
+      "source": "artifacts/dqn/dqn_train_lambda_650_seed_42.pth",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/dqn/policy/dqn_train_lambda_650_seed_42.pth",
+      "stages": [
+        "evaluate"
+      ]
+    },
+    {
+      "source": "artifacts/dqn/dqn_train_lambda_650_seed_100.pth",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/dqn/policy/dqn_train_lambda_650_seed_100.pth",
+      "stages": [
+        "evaluate"
+      ]
+    },
+    {
+      "source": "artifacts/sdp/training/monthly_inflow_model.npz",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/sdp/training/monthly_inflow_model.npz",
+      "stages": [
+        "evaluate"
+      ]
+    },
+    {
+      "source": "artifacts/sdp/policy/sdp_policy_lambda_175.npz",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/sdp/policy/sdp_policy_lambda_175.npz",
+      "stages": [
+        "evaluate"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/final/lambda_700/iso_rf_final_policy.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/final/lambda_700/iso_rf_final_policy.json",
+      "stages": [
+        "evaluate"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/final/lambda_700/iso_rf_final_policy.pkl",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/final/lambda_700/iso_rf_final_policy.pkl",
+      "stages": [
+        "evaluate"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/iso_rf_50lambda_validation_summary.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/iso_rf_50lambda_validation_summary.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_0/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_0/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_0/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_0/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_0/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_0/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_10/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_10/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_10/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_10/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_10/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_10/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_100/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_100/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_100/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_100/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_100/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_100/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1000/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1000/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1000/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1000/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1000/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1000/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1100/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1100/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1100/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1100/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1100/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1100/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_125/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_125/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_125/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_125/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_125/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_125/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1300/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1300/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1300/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1300/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1300/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1300/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1400/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1400/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1400/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1400/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1400/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1400/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_150/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_150/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_150/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_150/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_150/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_150/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1500/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1500/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1500/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1500/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1500/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1500/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1600/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1600/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1600/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1600/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1600/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1600/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1700/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1700/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1700/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1700/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1700/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1700/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_175/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_175/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_175/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_175/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_175/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_175/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1800/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1800/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1800/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1800/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1800/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1800/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1900/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1900/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1900/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1900/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_1900/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_1900/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_20/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_20/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_20/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_20/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_20/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_20/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_200/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_200/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_200/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_200/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_200/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_200/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2000/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2000/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2000/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2000/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2000/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2000/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_225/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_225/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_225/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_225/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_225/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_225/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2250/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2250/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2250/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2250/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2250/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2250/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_250/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_250/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_250/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_250/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_250/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_250/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2500/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2500/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2500/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2500/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2500/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2500/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_275/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_275/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_275/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_275/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_275/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_275/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2750/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2750/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2750/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2750/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_2750/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_2750/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_30/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_30/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_30/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_30/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_30/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_30/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_300/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_300/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_300/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_300/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_300/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_300/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_3000/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_3000/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_3000/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_3000/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_3000/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_3000/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_3250/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_3250/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_3250/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_3250/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_3250/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_3250/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_350/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_350/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_350/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_350/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_350/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_350/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_40/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_40/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_40/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_40/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_40/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_40/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_400/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_400/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_400/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_400/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_400/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_400/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_4000/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_4000/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_4000/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_4000/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_4000/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_4000/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_450/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_450/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_450/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_450/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_450/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_450/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_50/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_50/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_50/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_50/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_50/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_50/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_500/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_500/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_500/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_500/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_500/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_500/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_5000/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_5000/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_5000/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_5000/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_5000/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_5000/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_550/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_550/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_550/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_550/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_550/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_550/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_60/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_60/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_60/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_60/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_60/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_60/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_600/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_600/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_600/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_600/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_600/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_600/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_650/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_650/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_650/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_650/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_650/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_650/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_70/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_70/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_70/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_70/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_70/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_70/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_700/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_700/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_700/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_700/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_700/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_700/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_750/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_750/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_750/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_750/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_750/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_750/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_80/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_80/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_80/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_80/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_80/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_80/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_800/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_800/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_800/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_800/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_800/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_800/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_850/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_850/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_850/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_850/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_850/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_850/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_90/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_90/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_90/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_90/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_90/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_90/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_900/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_900/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_900/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_900/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_900/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_900/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_950/validation_segments.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_950/validation_segments.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_950/validation_summary.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_950/validation_summary.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_950/validation_trajectory.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_950/validation_trajectory.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_scan_results.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_scan_results.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/lambda_selection_ranking.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/lambda_selection_ranking.csv",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/lambda_scan/scan_contract.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/lambda_scan/scan_contract.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/selection/selected_hyperparameters.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/selection/selected_hyperparameters.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/selection/selected_lambda.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/selection/selected_lambda.json",
+      "stages": [
+        "evaluate",
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_1200.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_1200.csv",
+      "stages": [
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_1200.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_1200.json",
+      "stages": [
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_700.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_700.csv",
+      "stages": [
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_700.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/teachers/development_train_320y/ddp_teacher_lambda_700.json",
+      "stages": [
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/teachers/full_train_400y/ddp_teacher_lambda_700.csv",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/teachers/full_train_400y/ddp_teacher_lambda_700.csv",
+      "stages": [
+        "final-train"
+      ]
+    },
+    {
+      "source": "artifacts/iso_rf/teachers/full_train_400y/ddp_teacher_lambda_700.json",
+      "target": "outputs/violation_count_penalty/xiaowan_single_violation_count_v1/iso_rf/teachers/full_train_400y/ddp_teacher_lambda_700.json",
+      "stages": [
+        "final-train"
+      ]
+    }
+  ]
+}

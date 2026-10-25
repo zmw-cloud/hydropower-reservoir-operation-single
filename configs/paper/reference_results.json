@@ -1,0 +1,75 @@
+{
+  "records": [
+    {
+      "case": "Case 1",
+      "method": "DDP",
+      "penalty": 70,
+      "seed": null,
+      "trajectory": "reference_results/single/inputs/2f03cfeac27b/ddp_eval_lambda_70.csv",
+      "summary": "reference_results/single/inputs/888af1a681e2/ddp_eval_lambda_70.json",
+      "selection_stage": "evaluation_reference",
+      "selection_rule": "Previously fixed nearest-80 evaluation reference; ties: higher generation then lower penalty."
+    },
+    {
+      "case": "Case 1",
+      "method": "SDP",
+      "penalty": 175,
+      "seed": null,
+      "trajectory": "reference_results/single/inputs/e83bc4f96342/sdp_eval_lambda_175.csv",
+      "summary": "reference_results/single/inputs/4469d472ac7f/sdp_eval_lambda_175.json",
+      "selection_stage": "evaluation_reference",
+      "selection_rule": "Previously fixed nearest-80 evaluation reference; ties: higher generation then lower penalty."
+    },
+    {
+      "case": "Case 1",
+      "method": "ISO-RF",
+      "penalty": 700,
+      "seed": null,
+      "trajectory": "reference_results/single/inputs/c00a206329c0/iso_rf_eval_lambda_700.csv",
+      "summary": "reference_results/single/inputs/fc5bd74c0a3c/iso_rf_eval_lambda_700.json",
+      "selection_stage": "validation",
+      "selection_rule": "Fixed RF hyperparameters selected at anchor1200; lambda700 selected on held-out80 years; refit on400 training years before evaluation."
+    },
+    {
+      "case": "Case 1",
+      "method": "DQN",
+      "penalty": 650,
+      "seed": 1,
+      "trajectory": "reference_results/single/inputs/67e392cc8c90/seed_1/dqn_eval_lambda_650_seed_1.csv",
+      "summary": "reference_results/single/inputs/87ff109b7a49/seed_1/dqn_eval_lambda_650_seed_1.json",
+      "selection_stage": "validation",
+      "selection_rule": "Existing validation-selected lambda650; common2300-episode final budget is median best-validation episode; average seeds1/42/100."
+    },
+    {
+      "case": "Case 1",
+      "method": "DQN",
+      "penalty": 650,
+      "seed": 42,
+      "trajectory": "reference_results/single/inputs/67e392cc8c90/seed_42/dqn_eval_lambda_650_seed_42.csv",
+      "summary": "reference_results/single/inputs/87ff109b7a49/seed_42/dqn_eval_lambda_650_seed_42.json",
+      "selection_stage": "validation",
+      "selection_rule": "Existing validation-selected lambda650; common2300-episode final budget is median best-validation episode; average seeds1/42/100."
+    },
+    {
+      "case": "Case 1",
+      "method": "DQN",
+      "penalty": 650,
+      "seed": 100,
+      "trajectory": "reference_results/single/inputs/67e392cc8c90/seed_100/dqn_eval_lambda_650_seed_100.csv",
+      "summary": "reference_results/single/inputs/87ff109b7a49/seed_100/dqn_eval_lambda_650_seed_100.json",
+      "selection_stage": "validation",
+      "selection_rule": "Existing validation-selected lambda650; common2300-episode final budget is median best-validation episode; average seeds1/42/100."
+    }
+  ],
+  "expected_months": 4800,
+  "expected_years": 400,
+  "firm_power_kw": {
+    "Case 1": [
+      1854000
+    ],
+    "Case 2": [
+      1854000,
+      2406000
+    ]
+  }
+}
