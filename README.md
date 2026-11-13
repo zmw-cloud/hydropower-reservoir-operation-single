@@ -1,16 +1,47 @@
 # Single reservoir paper benchmark
 
-本仓库固定论文单库正式实验：DDP70、SDP175、ISO-RF700、DQN650。只有 TRAIN 与独立 EVAL，无 dry/wet 正式情景，也暂不包含单库绘图脚本。
+论文月尺度水电调度复现代码，包含 DDP70、SDP175、ISO-RF700、DQN650。正式数据划分为 TRAIN / 独立 EVAL。
 
-源码采用已审查的 single-comparison-iso-rf 工作副本；配置、模型及选择记录恢复自实际结果包。原目录与结果包不变。核心算法源码保持原字节，运行隔离由额外入口实现。
+仓库保留源码、README、复现说明、实验配置、必要输入数据、依赖声明、许可证和测试源码。训练模型、教师轨迹、验证扫描、评价结果、日志、图件及整合过程备份均由本地运行生成，不随源码提交。
 
-## Code and Data Sources（代码与数据来源）
+## 安装与输入检查
 
-### 代码与既有实验结果
+在仓库根目录使用 Python 3.10+：
 
-- 正式算法源码采用 `Platform-for-monthly-hydropower-reservoir-operation-single-comparison-iso-rf` 工作副本；正式方法 ISO 使用逐月随机森林，代表点为教师惩罚系数 700。历史 ISO-SURF 模块仅保留作参考。
-- 配置、冻结模型和评价结果来自 `Platform-for-monthly-hydropower-reservoir-operation-single-comparison` 中实际保存的结果包；不将结果归档目录视为另一套正式算法源码。
-- 原文件路径及 SHA-256 见 [来源清单](provenance/source_manifest.json)，整合时的适配见 [整合变更记录](provenance/integration_changes.json)。代码许可证见 [LICENSE](LICENSE)。
+```bash
+python -m pip install -e ".[all]"
+python -B scripts/audit_repository.py
+python -B scripts/run_workflow.py inspect
+python -B -m unittest discover -s tests -v
+```
+
+输入检查只验证正式径流文件及其 SHA-256，不加载模型、不训练、不评价。
+
+## 复现
+
+先生成策略，再评价；运行结果保存在已被 Git 忽略的 `outputs/`。以下以 SDP 为例：
+
+```bash
+python -B scripts/run_workflow.py run --algorithm sdp --stage train
+python -B scripts/run_workflow.py run --algorithm sdp --stage evaluate
+```
+
+完整阶段顺序、其他算法命令和绘图输入配置见 [复现说明](docs/REPRODUCTION.md)。命令附加 `--show-commands` 可只查看具体入口。初次克隆不包含预训练模型，不能跳过训练直接评价。
+
+## 仓库结构
+
+- `src/`：算法与公共物理模型。
+- `scripts/`：运行、输入检查入口。
+- `data/`：正式径流、工程曲线及必要配置。
+- `configs/`：论文参数、扫描设置与结果路径模板。
+- `tests/`：测试源码，不含测试产物。
+- `environments/`：依赖要求及已知历史版本说明。
+- `docs/REPRODUCTION.md`：复现步骤与协议边界。
+
+
+## 代码与数据来源
+
+正式源码采用 single-comparison-iso-rf 工作副本；正式 ISO 为逐月随机森林。保留的 ISO-SURF 是历史实现。 代码许可证见 [LICENSE](LICENSE)。
 
 ### 工程参数与曲线
 
@@ -24,56 +55,13 @@
 - 本仓库实际读取 [TRAIN](data/SynMonthlyInflow_train.xlsx) 和 [EVAL](data/SynMonthlyInflow_evaluation.xlsx)，每组 400 年、4800 个月，年份标签为 2009—2408，入流单位为 m³/s。TRAIN 随机种子为 `2026090301`，EVAL 为 `2026090302`。这些文件是合成序列，不是 400 年实测历史记录。
 - 正式实验仅使用 TRAIN/EVAL；不采用上游历史版本的 dry/wet 情景文件。原始历史径流的具体提供单位、原始资料名称及部分上游数据的单独使用条款尚未在现有归档中完整记录。
 
-详细复现步骤见 [REPRODUCTION.md](docs/REPRODUCTION.md)。当前文件核验使用 [发布清单](provenance/release_manifest.json)；本次 README 更新前的文档和清单原件保存在 [文档变更归档](provenance/documentation_updates/readme_sources_20261025/change.json)。
-
-## 先核验既有结果
-
-在本目录中使用 Python 3.10+：
-
-~~~text
-python -m pip install -r environments/requirements-audit.txt
-python -B scripts/audit_repository.py
-python -B scripts/run_workflow.py inspect
-python -B -m unittest discover -s tests -p test_integration.py -v
-~~~
-
-核验入口只读取保存的轨迹、JSON和哈希，不加载策略、不重新评价或训练。
-
-| 方法 | λ | 年均发电量 TWh/yr | 保证率 % |
-|---|---:|---:|---:|
-| DDP | 70 | 21.661920 | 79.770833 |
-| SDP | 175 | 20.805226 | 80.062500 |
-| ISO-RF | 700 | 20.413238 | 81.979167 |
-| DQN | 650 | 19.716678 | 79.930556 |
-
-DQN 为种子1、42、100的均值。ISO 的旧79.98%属于ISO-SURF1100，与当前RF700不匹配。
-
-## 仓库内容
-
-- src：原始物理、DDP、SDP、ISO-RF及DQN；保留的ISO-SURF是历史源码，不是正式ISO。
-- data：正式TRAIN/EVAL、原字节工程曲线和物理参数、有效冻结配置。
-- configs/paper：正式代表参数、结果清单及工作流。
-- configs/sweeps：实际扫描设置。
-- artifacts：固定SDP策略、RF700及DQN三种子权重，选择证据。
-- reference_results：保存的正式评价轨迹和JSON，供独立核验。
-- provenance：来源、原始配置、源码快照、适配记录和发布文件哈希。
-- scripts/run_workflow.py：准备独立工作目录，再显式执行选定阶段。
-- docs：复现命令、SI依据及实验局限。
-- outputs：新操作唯一允许的输出位置，不是历史结果来源。
-
-## 独立评价及训练
-
-~~~text
-python -B scripts/run_workflow.py prepare --algorithm dqn --stage evaluate
-python -B scripts/run_workflow.py execute outputs/runs/上一步生成的目录名
-~~~
-
-第一条只准备，第二条才执行。SDP与ISO使用相同的evaluate阶段。DDP的solve阶段包含完整有限时域求解，不能当作读取结果的快速命令。
-
-正式算法需要另行安装项目及其依赖：python -m pip install -e ".[all]"。加载冻结RF前须匹配scikit-learn1.7.2，入口会核对版本。正式训练、开发及求解阶段的说明见 docs/REPRODUCTION.md。本次整合没有执行这些实验。
 
 ## 复现边界
 
-RF原模型使用sklearn1.7.2。完整原训练环境锁文件并未全部保存在历史结果中；已知版本见 environments/historical_versions.json。加载旧pickle时应使用对应版本，不自动重存模型。默认安装范围是可安装环境说明，不冒充原实验的完整锁文件。
+完整历史训练环境锁文件尚不齐全，已记录版本见 `environments/historical_versions.json`。重新训练所得结果可能受软件版本、随机性和硬件影响，不保证逐位一致。
 
-将本仓库整体移动后，数据核验与新准备工作仍使用相对路径；已准备工作目录需要重新prepare。历史JSON中的原服务器路径作为溯源文本保留。
+单库 ISO 使用 320 年拟合、80 年验证；开发锚点 λ=1200，经验证扫描选定 λ=700，再使用全部 400 年 TRAIN 拟合最终策略。DQN 使用种子 1、42、100，最终预算为每种子 2300 回合。
+
+## 结果管理
+
+结果与模型保留在 `outputs/`；`.gitignore` 同时排除模型权重、缓存、日志及旧结果归档目录。输入数据和实验配置需要纳入版本控制，因此不按 CSV、Excel 或 JSON 扩展名一律忽略。
